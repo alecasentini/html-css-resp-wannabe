@@ -131,12 +131,30 @@ img {
  /* mobile */
  @media screen and (max-width: 480px) {
     .container {
-        width: 480px;
+        width: 100%;
     }
     .row{
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
+    }
+
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left,
+    .why-us .col-right
+    {
+        width: 100%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+ }
+
+ /* tablet */
+
+ @media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
     }
 
     .lessons .col,
