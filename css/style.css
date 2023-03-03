@@ -151,8 +151,24 @@ img {
  }
 
  /* tablet */
-
  @media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left,
+    .why-us .col-right
+    {
+        width: 100%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+ }
+
+ /* bonus */
+ @media screen and (max-width:1140px) {
     .container {
         width: 100%;
     }
