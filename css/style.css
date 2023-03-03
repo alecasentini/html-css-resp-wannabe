@@ -133,6 +133,15 @@ img {
     .container {
         width: 100%;
     }
+
+    body{
+        background: linear-gradient( to top, #222222 0%, #222222 50%, #232946 50%, #232946 100% );
+    }
+
+    .why-us .container .row{
+        background: #222222;
+    }
+
     .row{
         flex-direction: column;
         flex-wrap: wrap;
