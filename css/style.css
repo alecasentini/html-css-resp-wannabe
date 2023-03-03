@@ -177,7 +177,7 @@ img {
  }
 
  /* bonus */
- @media screen and (max-width:1140px) {
+ @media screen and (max-width:1160px) {
     .container {
         width: 100%;
     }
